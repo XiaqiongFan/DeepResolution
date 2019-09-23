@@ -8,26 +8,26 @@ Deep-Learning-Based Multivariate Curve Resolution (DeepResolution) method has be
 <img src="https://raw.githubusercontent.com/xiaqiong/DeepResolution/master/Flowchart%20of%20DeepResolution.png" width=600 height=480 />
 </div>
 
-#Installation
+# Installation
 
-##python and TensorFlow
+## python and TensorFlow
+
 Python 3.5.2，available at [https://www.python.org.](https://www.python.org/) 
 
 TensorFlow (version 1.14.0-GPU)，available at [https://github.com/tensorflow.](https://github.com/tensorflow) 
 
-##Install dependent packages
+## Install dependent packages
 
 The packages mainly include: numpy,Scipy,Matplotlib,pandas,sklearn,csv and os.
 
 These packages are included in the integration tool Anaconda [(https://www.anaconda.com).](https://www.anaconda.com/) 
 
-#Clone the repository and run it directly
+# Clone the repository and run it directly
 [git clone](https://github.com/xiaqiong/DeepResolution) 
 
 # Download the model and run directly
 
 Since the model exceeded the limit, we have uploaded all the models and the  information of mixtures to the Baidu SkyDrive.
-
 [Download](https://pan.baidu.com/s/1NLF207Xtu_URRpDAa5fu2w) 
 
 # Contact
