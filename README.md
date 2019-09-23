@@ -1,6 +1,5 @@
 # DeepResolution
-Deep-Learning-Based Multivariate Curve Resolution (DeepResolution) method has been proposed for automatic resolution of GC-MS data.
-
+Deep-Learning-Based Multivariate Curve Resolution
 ----------
 Deep-Learning-Based Multivariate Curve Resolution (DeepResolution) method has been proposed for automatic resolution of GC-MS data. It has excellent performance in resolving overlapping peaks and is suitable for large-scale data analysis. Compared with the classical multi-curve resolution method, it has the characteristics of fast, accurate, scalable and fully automatic.
 
