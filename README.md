@@ -24,10 +24,10 @@ These packages are included in the integration tool Anaconda [(https://www.anaco
 # Clone the repository and run it directly
 [git clone](https://github.com/xiaqiong/DeepResolution) 
 
-# Download the model and run directly
+# Download the model and example data
 
 Since the model exceeded the limit, we have uploaded all the models and the  information of mixtures to the Baidu SkyDrive.
-[Download](https://pan.baidu.com/s/1NLF207Xtu_URRpDAa5fu2w) 
+[Download](https://drive.google.com/open?id=19y6JYQY0VNkGMmjCi_1EF1EcMvDOdXn-) 
 
 # Contact
 
