@@ -26,8 +26,8 @@ These packages are included in the integration tool Anaconda [(https://www.anaco
 
 # Download the model and example data
 
-Since the model exceeded the limit, we have uploaded all the models and the  information of mixtures to the google drive.
-[Download](https://drive.google.com/open?id=19y6JYQY0VNkGMmjCi_1EF1EcMvDOdXn-) 
+Since the model exceeded the limit, we have uploaded all the models and the  information of mixtures to the [google drive](https://drive.google.com/drive/folders/19y6JYQY0VNkGMmjCi_1EF1EcMvDOdXn-?usp=sharing).
+
 
 # Contact
 
