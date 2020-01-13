@@ -207,7 +207,7 @@ if __name__ == '__main__':
     channle = 3
     data_path = u'./Data'
     
-    compounds = 0
+    compounds = 1
     print('Compound',compound,'start')
 
     train(compound,channle,data_path)
