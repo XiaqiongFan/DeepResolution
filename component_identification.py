@@ -205,15 +205,11 @@ def train(compound,channle,data_path):
 if __name__ == '__main__':
 
     channle = 3
-    data_path = u'D:/GCMS/Data_augmentation'
+    data_path = u'./Data'
     
-    compounds = [19]
+    compounds = 19
+    print('Compound',compound,'start')
 
-    for i in range (len(compounds)):
-        compound = compounds[i]
+    train(compound,channle,data_path)
 
-        print('Compound',compound,'start')
-
-        train(compound,channle,data_path)
-
-        print('Compound',compound,'finished')
+    print('Compound',compound,'finished')
