@@ -21,12 +21,24 @@ The packages mainly include: numpy,Scipy,Matplotlib,pandas,sklearn,csv and os.
 
 These packages are included in the integration tool Anaconda [(https://www.anaconda.com).](https://www.anaconda.com/) 
 
-# Clone the repository and run it directly
-[git clone](https://github.com/xiaqiong/DeepResolution) 
-
 # Download the model and example data
 
-Since the model exceeded the limit, we have uploaded all the models and the  information of mixtures to the [google drive](https://drive.google.com/drive/folders/19y6JYQY0VNkGMmjCi_1EF1EcMvDOdXn-?usp=sharing).
+Since the model exceeded the limit, we have uploaded all the models and some example data to the [google drive](https://drive.google.com/drive/folders/19y6JYQY0VNkGMmjCi_1EF1EcMvDOdXn-?usp=sharing).
+
+# Clone the repository and run it directly
+[git clone](https://github.com/xiaqiong/DeepResolution) 
+###1.Training CNN model
+Run the file 'component_identification.py'.
+
+The corresponding example data have been uploaded to the data folder named 'data_1.npy' and 'labels_1.npy'.These are augmented data for a component.
+
+###2.Predict GC-MS data automatically
+
+Run the file 'DeepResolution.py'.
+
+Example data have been uploaded to the data folder named 'zhi10-5vs1.CDF'. The file named 'component.csv' is the components's name of all our CNN models. Download the [model](https://drive.google.com/drive/folders/19y6JYQY0VNkGMmjCi_1EF1EcMvDOdXn-?usp=sharing) and these example data，DeepCID can be reload and predict easily.
+
+More example data can be gotten form [google drive](https://drive.google.com/drive/folders/19y6JYQY0VNkGMmjCi_1EF1EcMvDOdXn-?usp=sharing).
 
 
 # Contact
