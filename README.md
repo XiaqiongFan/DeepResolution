@@ -32,7 +32,7 @@ Since the model exceeded the limit, we have uploaded all the models and some exa
 ### 1.Training CNN model
 Run the file 'component_identification.py'.
 
-The corresponding example data have been uploaded to the data folder named 'data_1.npy' and 'labels_1.npy'.These are augmented data for a component.
+The corresponding example data have been uploaded to the example data folder（in google drive）named 'data_1.npy' and 'labels_1.npy'.These are augmented data for a component.
 
 ### 2.Predict GC-MS data automatically
 
