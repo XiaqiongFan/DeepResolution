@@ -29,12 +29,12 @@ Since the model exceeded the limit, we have uploaded all the models and some exa
 [git clone](https://github.com/xiaqiong/DeepResolution) 
 
 
-###1.Training CNN model
+### 1.Training CNN model
 Run the file 'component_identification.py'.
 
 The corresponding example data have been uploaded to the data folder named 'data_1.npy' and 'labels_1.npy'.These are augmented data for a component.
 
-###2.Predict GC-MS data automatically
+### 2.Predict GC-MS data automatically
 
 Run the file 'DeepResolution.py'.
 
