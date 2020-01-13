@@ -27,6 +27,8 @@ Since the model exceeded the limit, we have uploaded all the models and some exa
 
 # Clone the repository and run it directly
 [git clone](https://github.com/xiaqiong/DeepResolution) 
+
+
 ###1.Training CNN model
 Run the file 'component_identification.py'.
 
