@@ -224,7 +224,7 @@ if __name__ == '__main__':
     channle = 3
     work_path = 'C:/Users/admin/Desktop/DeepResolution'
     
-    data_file = work_path+'/CDF/zhi10-5vs1.CDF'
+    data_file = work_path+'/data/zhi10-5vs1.CDF'
     ncr = netcdf_reader(data_file, bmmap=False)
     m = ncr.mat(1,3599, 1)
     RT = m['rt']
@@ -234,7 +234,7 @@ if __name__ == '__main__':
     result_path = work_path+'/result/'+data_file.split('/')[-1]
     mkdir(result_path)
     
-    component_file = csv.reader(open(work_path+'/mass/component.csv', encoding='utf-8'))
+    component_file = csv.reader(open(work_path+'/data/component.csv', encoding='utf-8'))
     components = [row for row in component_file]
 
     Xtest = preprocess(Xdata,channle)
