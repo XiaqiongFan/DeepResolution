@@ -56,7 +56,7 @@ class netcdf_reader:
         rt = self.tic()['rt'][indmin:indmax + 1]
         mass_max = np.max(self.f.variables['mass_range_max'].data)
         mass_min = np.max(self.f.variables['mass_range_min'].data)
-        mz = np.linspace(mass_min, mass_max, num=mass_max - mass_min + 1)
+        mz = np.linspace(mass_min, mass_max, num=int(mass_max - mass_min + 1))
         return {'mat': self.mat(indmin, indmax, 1)['mat'], 'rt': rt, 'mz': mz}
 
     def mat(self, imin, imax, bin):
@@ -68,7 +68,7 @@ class netcdf_reader:
         scan_index_end = np.hstack((scan_index.data, np.array([len(intensity_values.data)], dtype=int)))
         mass_max = np.max(f.variables['mass_range_max'].data)
         mass_min = np.max(f.variables['mass_range_min'].data)
-        mz = np.linspace(mass_min, mass_max, num=mass_max - mass_min + 1)
+        mz = np.linspace(mass_min, mass_max, num=int(mass_max - mass_min + 1))
         if imin < 0 and imax > len(t):
             print('please print suitable index of retention time')
             exit()
@@ -123,7 +123,7 @@ def plot_tic(tic_dict):
 if __name__ == '__main__':
 
     
-    filename = 'C:/Users/admin/Desktop/GC_MS/MP/zhi10-5vs1.CDF'
+    filename = 'data/zhi10-5vs1.CDF'
     #filename = 'D:/GCMS/tbb/metabolomics/080603cdf/正常/244-2.CDF'
     ncr = netcdf_reader(filename, bmmap=False)
     m = ncr.mat(1,3599, 1)
